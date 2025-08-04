@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Mozilla+Text:wght@200..700&family=Revalia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Mozilla+Text:wght@200..700&family=Revalia&family=Roboto:ital,wght@0,600;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav a{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+
+}
+/* .hero{
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+} */
+
+#logo{
+  font-family: "Revalia", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+
+h3{
+    font-size: 50px;
+}
+
+#gallery img{
+    transition: .5s;
+}
+
+#gallery .card{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.90)
+}
+
+#gallery img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card ul li{
+    color: #6F678F;
+}
+
+.button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10%;
+    transition: .5s;
+    border-color: #F2D6DA;
+}
+
+.button:hover{
+    background-color: #6F678F;
+    transition: .5s;
+    color: white;
+    border: none;
+}
+
+@media (max-width: 640px) {
+    .caption{
+        text-align: center;
+       
+    }
+}
